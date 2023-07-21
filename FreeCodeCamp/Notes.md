@@ -340,3 +340,17 @@ var removedFromOurArray = ourArray.pop();
 var myArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray = myArray[0].pop();// removes 23
 ```
+
+### Manipulate Arrays with shift()
+Shift function is similar to pop function except it removes the first element of the array instead of final element.
+```javascript
+var ourArray = ["Stimpson", "J", ["cat"]]; 
+var removedFromOurArray = ourArray.shift();
+```
+### Manipulate Arrays with unshift()
+Unshift function is similar to push function except it adds element at the start of the array instead of at the end.
+```javascript
+var ourArray ["Stimpson", "J", "cat"]; 
+ourArray.shift(); // ourArray now equals ["J", "cat"] 
+ourArray.unshift("Happy");
+```
