@@ -4,4 +4,4 @@
 
 let accId;
 
-console.table([typeof null, typeof undefined])
+console.table([typeof (null), typeof undefined])

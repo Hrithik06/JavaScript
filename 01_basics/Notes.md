@@ -19,3 +19,6 @@
     typeof used to get type, 
     - typeof null = object
     - typeof undefined = undefined, undefined is an type itself.
+
+# Datatype conversion confusion
+We want to convert from one datatype to another, for eg: string to data, say frontend has sent numerical value as a string but we want number for processing. We use `Number()` class, some cases `Number("123abc")` will give typeof as number but value is NaN.
