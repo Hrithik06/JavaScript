@@ -22,3 +22,16 @@
 
 # Datatype conversion confusion
 We want to convert from one datatype to another, for eg: string to data, say frontend has sent numerical value as a string but we want number for processing. We use `Number()` class, some cases `Number("123abc")` will give typeof as number but value is NaN.
+
+# String to number conversion
+```javascript
+"1"+2 = 1+"2" = 12
+"1"+2+2 = 122
+1+2+"2" = 32
+1+"2"+2 = 122
+clog(+true) = 1 //boolean is converted to number
+clog(+"") = 0 //empty string is false
+```
+
+Equality check == and comparisons > < >= <= work differently in JS.
+Comparisons convert null to a number, treating it as 0. That's why (3) null >= 0 is true and (1) null > 0 is false.
