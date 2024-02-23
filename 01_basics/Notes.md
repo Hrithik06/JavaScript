@@ -33,5 +33,13 @@ clog(+true) = 1 //boolean is converted to number
 clog(+"") = 0 //empty string is false
 ```
 
+# Comparisons
+Always compare same data types, comparing different data types gives unpredicted results.
 Equality check == and comparisons > < >= <= work differently in JS.
+Null is sometimes converted to 0, NaN
 Comparisons convert null to a number, treating it as 0. That's why (3) null >= 0 is true and (1) null > 0 is false.
+
+==,===,(>=,<=) all three have different syntax of working.
+Strict check
+=== : checks data type also, doesn't convert 
+clog("2"===2), here string "2" is not converted.
