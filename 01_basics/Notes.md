@@ -54,7 +54,7 @@ clog("2"===2), here string "2" is not converted.
 | Object (native and does not implement [[Call]])     | `"object"`                                                                                      |
 | Object (native or host and does implement [[Call]]) | `"function"`                                                                                    |
 | Object (host and does not implement [[Call]])       | Implementation-defined except may not be `"undefined"`, `"boolean"`, `"number`", or `"string".` |
-
+https://262.ecma-international.org/5.1/#sec-11.4.3
 Primitive DataTypes:
 
 
@@ -84,9 +84,7 @@ Primitive DataTypes:
 
 5.RegExp: Represents regular expressions for pattern matching.
 
-
-
-lets talk about some Range of Primitive DataType:
+#### Range of Primitive DataType:
 
     1.Number:
         Represents both integers and floating-point numbers.
