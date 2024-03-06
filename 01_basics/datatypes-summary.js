@@ -14,3 +14,26 @@ const anotherId = Symbol('123')
 
 // console.log(id, anotherId);
 console.log(id === anotherId);
+console.log(typeof anotherId);
+
+//BigInt
+//as we haven't written a big number, so we add 'n' at the end to represent BigInt
+const bigNumber = 6549848498465145345346n
+console.log(typeof bigNumber);
+
+// Arrays, Objects, Functions
+// All Non-Primitve typeof is Object
+const brands = ["lenovo", "sony", "asus"]
+console.log(typeof brands);
+
+const myObj = {
+    name : "Hrithik",
+    language : "Javascript"
+}
+console.log(typeof myObj);
+
+const myFun = function(){
+    console.log("I am a function")
+}
+console.log(typeof myFun);
+// this shows, function but actually if u study in depth it is function-object
