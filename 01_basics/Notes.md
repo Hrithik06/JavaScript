@@ -54,8 +54,9 @@ clog("2"===2), here string "2" is not converted.
 | Object (native and does not implement [[Call]])     | `"object"`                                                                                      |
 | Object (native or host and does implement [[Call]]) | `"function"`                                                                                    |
 | Object (host and does not implement [[Call]])       | Implementation-defined except may not be `"undefined"`, `"boolean"`, `"number`", or `"string".` |
+
 https://262.ecma-international.org/5.1/#sec-11.4.3
-Primitive DataTypes:
+## Primitive DataTypes:
 
 
 1.Number: Represents both integer and floating-point numbers. Example: 5, 3.14.
@@ -72,7 +73,8 @@ Primitive DataTypes:
 
 7.BigInt (ES11): Represents large integers that cannot be represented by the Number type.
 
- Refence (Object Data Types):
+## Non-Primitive
+ Refernce (Object Data Types):
 
 1.Object: Represents a collection of key-value pairs (properties and methods). Example: { name: "John", age: 30 }.
 
