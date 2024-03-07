@@ -116,3 +116,11 @@ https://262.ecma-international.org/5.1/#sec-11.4.3
     7.BigInt (ES11):
         Represents large integers that cannot be represented by the Number type.
         The range is practically unlimited and depends on available memory.
+
+# Stack and Heap
+Refer stack-and-heap.md
+
+# Strings
+Using "+" for concatenating is not recommend now in JS. Use backticks (``).
+Backticks allow for 'string interpolation': We create placeholders, to inject values of variables.
+Backticks also allow for any operations to be done on these placeholder variables for eg: name.toUpperCase() 
