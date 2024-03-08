@@ -124,3 +124,11 @@ Refer stack-and-heap.md
 Using "+" for concatenating is not recommend now in JS. Use backticks (``).
 Backticks allow for 'string interpolation': We create placeholders, to inject values of variables.
 Backticks also allow for any operations to be done on these placeholder variables for eg: name.toUpperCase() 
+We can use String obj to declare a new string, this gives us a string object with key-value pairs, it is not an array and its indices, {0:h,1:r,....} are key value pairs, run code in browser-console to see.
+`javascript
+const myName = new String('Hrithik')
+`
+Can see all the methods we can use on String, in the browser-console.
+When we use this syntax for creating a string, it is both an object and also primitive string. We can observe it in browser-console, and use methods/funs for both objects and string.
+substring(): ignores negative values.
+slice(): negative values-starts in reverse order.
